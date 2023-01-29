@@ -1,9 +1,11 @@
+/* CSS-B-sico-2-9fdb574a096e4a096e42d4953 */
 .card {
     margin: 80px auto;
     width: 300px;
     padding: 20px 10px;
     background-color: blueviolet;
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card--red {
@@ -11,7 +13,7 @@
 }
 
 .card__img {
-    width: 100px;
+    width: 100%;
 }
 
 .card__link {
