@@ -1,0 +1,57 @@
+:root {
+    --color-red: #F00;
+    --color-black: #000;
+    --color-blue: #0070c0;
+    --color-coffee: #974807;
+    --color-skin: #fac090;
+}
+
+.mario {
+    margin: 70px 150px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-red);
+
+    /* gorra, primera fila */
+    box-shadow:
+    1em 0 var(--color-red),
+    2em 0 var(--color-red),
+    3em 0 var(--color-red),
+    4em 0 var(--color-red),
+    5em 0 var(--color-red),
+
+    /* gorra, segunda fila */
+    -1em 1em var(--color-red),
+    0 1em var(--color-red),
+    1em 1em var(--color-red),
+    2em 1em var(--color-red),
+    3em 1em var(--color-red),
+    4em 1em var(--color-red),
+    5em 1em var(--color-red),
+    6em 1em var(--color-red),
+    7em 1em var(--color-red),
+    8em 1em var(--color-red),
+    
+    /* cara, primera fila */
+    -1em 2em var(--color-coffee),
+    0em 2em var(--color-coffee),
+    1em 2em var(--color-coffee),
+    2em 2em var(--color-skin),
+    3em 2em var(--color-skin),
+    4em 2em var(--color-skin),
+    5em 2em var(--color-black),
+    6em 2em var(--color-skin),
+    
+    /* cara, segunda fila */
+    -2em 3em var(--color-coffee),
+    -1em 3em var(--color-skin),
+    -0em 3em var(--color-coffee),
+    1m 3em var(--color-skin),
+    2em 3em var(--color-skin),
+    3em 3em var(--color-skin),
+    4em 3em var(--color-skin),
+    5em 3em var(--color-black),
+    6em 3em var(--color-skin),
+    7em 3em var(--color-skin),
+    8em 3em var(--color-skin);
+}
